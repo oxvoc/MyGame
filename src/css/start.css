@@ -8,10 +8,24 @@ and open the template in the editor.
     Author     : user
 */
 .button{
+     -fx-border-style: solid;
+      -fx-font-weight: bold;
+       -fx-background-color: magenta;
+       -fx-text-fill: black;
+       -fx-border-color: yellow;
  -fx-font-size: 20;
-     -fx-background-color: magenta;
-  -fx-border-color: yellow;
-       -fx-border-radius: 50;
+    -fx-border-radius: 50;
+        -fx-background-radius: 40;
     -fx-border-width: 5px;
-    -fx-background-radius: 40;
+   
+}
+.label{
+      -fx-font-size: 16pt;
+        -fx-text-fill: black;
+          -fx-font-family: "Calibri";
+          -fx-font-weight: bold;
+          -fx-background-color: yellowgreen;
+          -fx-border-radius: 50;
+          -fx-background-radius: 40;
+          -fx-border-width: 5px;
 }
